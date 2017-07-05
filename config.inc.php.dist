@@ -1,0 +1,17 @@
+<?php
+
+/* login_referer plugin */
+
+/*
+     It will redirect page after successful login to url presented in 'referer' (by default)
+     query parameter is it exists.
+     Parameter name used to find redirect url can be modified in config with $config['login_referer_param'] option.
+*/
+
+/*
+  $rcmail_config['login_referer_param'] = 'referer';
+*/
+
+$config['login_referer_param'] = 'referer';
+
+?>

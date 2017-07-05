@@ -1,0 +1,30 @@
+{
+    "name": "sintro/login_referer",
+    "type": "roundcube-plugin",
+    "description": "Plugin to redirect on successful login to url presented in query param 'referer' (if it exists). Param name can be configured with $config['login_referer_param'] option",
+    "keywords": ["customize","settings","login","redirect", "referer"],
+    "license": "GNU GPLv3+",
+    "authors": [
+        {
+            "name": "Molodtsov Dmitriy",
+            "email": "skipintro.ru@gmail.com",
+            "homepage":"https://github.com/sintro/login_redirect",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://plugins.roundcube.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.2.1",
+        "roundcube/plugin-installer": ">=0.1.2"
+    },
+    "extra": {
+        "roundcube": {
+          "min-version": "1.0"
+        }
+    }
+}
